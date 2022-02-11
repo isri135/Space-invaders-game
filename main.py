@@ -10,7 +10,7 @@ pygame.init()
 screen = pygame.display.set_mode((800, 600))
 
 # Background
-background = pygame.image.load('background.png')
+background = pygame.image.load('—Pngtree—space galaxy background with stardust_5440387.png')
 
 # Back sound
 mixer.music.load('background.wav')
@@ -39,8 +39,8 @@ for i in range(num_of_enemies):
     EnemyImg.append(pygame.image.load('enemy.png'))
     EnemyX.append(random.randint(64, 736))
     EnemyY.append(random.randint(50, 150))
-    EnemyX_change.append(2.5)
-    EnemyY_change.append(20)
+    EnemyX_change.append(4)
+    EnemyY_change.append(25)
 
 # Bullet
 
